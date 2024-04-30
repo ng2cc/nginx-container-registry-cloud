@@ -3,7 +3,7 @@ FROM nginx:1.18-alpine
 COPY ./html /usr/share/nginx/html
 
 # Default WAS_IP Value
-ENV WAS_IP="192.168.111.21"
+ENV WAS_IP="nodejs-alb-456367258.ap-northeast-1.elb.amazonaws.com"
 
 EXPOSE 80
 
